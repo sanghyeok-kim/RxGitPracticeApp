@@ -23,6 +23,7 @@
 		1E96DF57285F012900E64DC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E96DF5A285F012900E64DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E96DF5C285F012900E64DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E96DF62285F0CB900E64DC2 /* RxPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		32893E5E8BE7B416F647D2DB /* Pods-RxGitPracticeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGitPracticeApp.debug.xcconfig"; path = "Target Support Files/Pods-RxGitPracticeApp/Pods-RxGitPracticeApp.debug.xcconfig"; sourceTree = "<group>"; };
 		A7D4B502CD96245B65625234 /* Pods-RxGitPracticeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxGitPracticeApp.release.xcconfig"; path = "Target Support Files/Pods-RxGitPracticeApp/Pods-RxGitPracticeApp.release.xcconfig"; sourceTree = "<group>"; };
 		D5153D182ABB9F8A1F75DB41 /* Pods_RxGitPracticeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxGitPracticeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,13 +47,13 @@
 				32893E5E8BE7B416F647D2DB /* Pods-RxGitPracticeApp.debug.xcconfig */,
 				A7D4B502CD96245B65625234 /* Pods-RxGitPracticeApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		1E96DF42285F012800E64DC2 = {
 			isa = PBXGroup;
 			children = (
+				1E96DF63285F0CD300E64DC2 /* Playground */,
 				1E96DF4D285F012800E64DC2 /* RxGitPracticeApp */,
 				1E96DF4C285F012800E64DC2 /* Products */,
 				06C177554280032973B7A55A /* Pods */,
@@ -79,6 +80,14 @@
 				1E96DF5C285F012900E64DC2 /* Info.plist */,
 			);
 			path = RxGitPracticeApp;
+			sourceTree = "<group>";
+		};
+		1E96DF63285F0CD300E64DC2 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				1E96DF62285F0CB900E64DC2 /* RxPlayground.playground */,
+			);
+			path = Playground;
 			sourceTree = "<group>";
 		};
 		49A4E6FC61A5B47BE8FCD02E /* Frameworks */ = {
