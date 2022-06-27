@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2DDCCC2869EF820019A28D /* FetchIssueReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2DDCCB2869EF820019A28D /* FetchIssueReactor.swift */; };
+		1E2DDCCE2869F0240019A28D /* IssueEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2DDCCD2869F0240019A28D /* IssueEntity.swift */; };
 		1E96DF4F285F012800E64DC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E96DF4E285F012800E64DC2 /* AppDelegate.swift */; };
 		1E96DF51285F012800E64DC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E96DF50285F012800E64DC2 /* SceneDelegate.swift */; };
-		1E96DF53285F012800E64DC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E96DF52285F012800E64DC2 /* ViewController.swift */; };
+		1E96DF53285F012800E64DC2 /* FetchIssueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E96DF52285F012800E64DC2 /* FetchIssueViewController.swift */; };
 		1E96DF58285F012900E64DC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E96DF57285F012900E64DC2 /* Assets.xcassets */; };
 		1E96DF5B285F012900E64DC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E96DF59285F012900E64DC2 /* LaunchScreen.storyboard */; };
 		ABB62EB9C767F7EBBDC4CAB9 /* Pods_RxGitPracticeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5153D182ABB9F8A1F75DB41 /* Pods_RxGitPracticeApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E2DDCCB2869EF820019A28D /* FetchIssueReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchIssueReactor.swift; sourceTree = "<group>"; };
+		1E2DDCCD2869F0240019A28D /* IssueEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueEntity.swift; sourceTree = "<group>"; };
 		1E96DF4B285F012800E64DC2 /* RxGitPracticeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxGitPracticeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E96DF4E285F012800E64DC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E96DF50285F012800E64DC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E96DF52285F012800E64DC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E96DF52285F012800E64DC2 /* FetchIssueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchIssueViewController.swift; sourceTree = "<group>"; };
 		1E96DF57285F012900E64DC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E96DF5A285F012900E64DC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E96DF5C285F012900E64DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,7 +78,9 @@
 			children = (
 				1E96DF4E285F012800E64DC2 /* AppDelegate.swift */,
 				1E96DF50285F012800E64DC2 /* SceneDelegate.swift */,
-				1E96DF52285F012800E64DC2 /* ViewController.swift */,
+				1E96DF52285F012800E64DC2 /* FetchIssueViewController.swift */,
+				1E2DDCCB2869EF820019A28D /* FetchIssueReactor.swift */,
+				1E2DDCCD2869F0240019A28D /* IssueEntity.swift */,
 				1E96DF57285F012900E64DC2 /* Assets.xcassets */,
 				1E96DF59285F012900E64DC2 /* LaunchScreen.storyboard */,
 				1E96DF5C285F012900E64DC2 /* Info.plist */,
@@ -212,9 +218,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E96DF53285F012800E64DC2 /* ViewController.swift in Sources */,
+				1E2DDCCE2869F0240019A28D /* IssueEntity.swift in Sources */,
+				1E96DF53285F012800E64DC2 /* FetchIssueViewController.swift in Sources */,
 				1E96DF4F285F012800E64DC2 /* AppDelegate.swift in Sources */,
 				1E96DF51285F012800E64DC2 /* SceneDelegate.swift in Sources */,
+				1E2DDCCC2869EF820019A28D /* FetchIssueReactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
