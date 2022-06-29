@@ -1,9 +1,10 @@
 import Foundation
 import RxSwift
 
-
-
-/// subscribe(onNext:)
+/*:
+ ---
+ subscribe(onNext:)
+ */
 
 //Observable<Int>.just(1)
 //    .subscribe(onNext: {
@@ -20,9 +21,10 @@ import RxSwift
 //        print($0)
 //    })
 
-
-
-/// subscribe
+/*:
+ ---
+ subscribe
+ */
 
 //Observable<Int>.just(1)
 //    .subscribe {
@@ -38,8 +40,6 @@ import RxSwift
 //    .subscribe {
 //        print($0)
 //    }
-
-
 
 //Observable<Int>.of(1, 2, 3)
 //    .subscribe {
